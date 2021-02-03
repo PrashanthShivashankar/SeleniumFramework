@@ -8,10 +8,14 @@
     <classes>
       <class name="com.freecrm.testcases.LoginPageTestCases">
         <methods>
+          <include name="testHomeButton"/>
+          <include name="testLogo"/>
           <include name="testContactsButton"/>
           <include name="testLogin"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="testPricingButton"/>
+          <include name="testfeaturesButton"/>
           <include name="testCustomersButton"/>
           <include name="testSignUpButton"/>
         </methods>
